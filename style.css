@@ -7,10 +7,10 @@ body {
 .box-geral {
     display: flex;
     justify-content: center;
-    height: 500px;
+    height: 100vh;
     width: 100%;
     margin: 0 auto;
-    background: rgb(148, 127, 226);
+    background: ghostwhite;
 }
 
 .content-button {
@@ -35,8 +35,9 @@ body {
     padding: 0.425rem 1rem;
     font-size: 0.9rem;
     border-radius: 2.5rem;
-    border: none;
-    color: black;
+    border: 1px solid red;
+    color: white;
+    background: black;
 }
 
 .sectionCriarListaDePecas {
