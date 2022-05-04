@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.6rem;
+}
+
+.box-geral {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+    margin: 0 auto;
+    background: rgb(148, 127, 226);
+}
+
+.content-button {
+    padding-top: 5rem;
+}
+
+.campos-resposta li {
+    list-style-type: none;
+}
+
+.msgErroQtdDePecaCadastrada,
+.msgNomeDaPeca,
+.msgPesoDaPeca {
+    display: none;
+    color: red;
+}
+
+.btn {
+    display: inline-block;
+    line-height: 1.5;
+    cursor: pointer;
+    padding: 0.425rem 1rem;
+    font-size: 0.9rem;
+    border-radius: 2.5rem;
+    border: none;
+    color: black;
+}
+
+.sectionCriarListaDePecas {
+    border: 1px solid grey;
+    padding: 3rem;
+    margin: auto;
+}

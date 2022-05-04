@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>sistema de contagem de peças</title>
+</head>
+
+<body>
+    <main>
+        <div class="box-geral">
+            <div class="sectionCriarListaDePecas">
+                <h1 class="title-principal">
+                    Criar Lista de peças:
+                </h1>
+
+                <div class="cardListaDePeca">
+                    <label for="qtd">Qtd.de peças que cabe no estoque:</label>
+                    <input id="qtd" class="qtd input-group" type="text" value="10">
+                </div>
+                <form id="formulario" name="formulario" onsubmit="return false;">
+                    <span class="msgErroQtdDePecaCadastrada">Não suporta mais peças no estoque excedeu o limite.</span>
+
+                    <div class="cardNomedaPeca">
+                        <label for="nome">Nome da Peça</label>
+                        <input id="nome" class="qtd input-group" value="" type="text">
+                    </div>
+                    <span class="msgNomeDaPeca">Por favor, queira cadastrar o nome das peças.</span>
+
+                    <div class="cardPesoDaPeca">
+                        <label for="peso">Peso da Peça:</label>
+                        <input id="peso" class="qtd input-group" type="text">
+                    </div>
+                    <span class="msgPesoDaPeca">A peça não pode ser cadastrado, peso abaixo do permitido.</span>
+
+                    <div class="content-button">
+                        <button type="submit" class="btn" id="criarLista" onclick="cadastraPecas()">Cadastra Peças</button>
+
+                    </div>
+                </form>
+
+            </div>
+
+        </div>
+
+        </div>
+    </main>
+    <script src="./main.js"></script>
+
+</body>
+
+</html>
