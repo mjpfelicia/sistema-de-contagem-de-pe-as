@@ -1,5 +1,5 @@
 # sistema-de-contagem-de-pe-as
-![Design preview for the Bookmark landing page coding challenge](/cadastroDepecas.png);
+![Design preview for the Bookmark landing page coding challenge](./cadastro2.png);
 
 ## Welcome! 👋
 
