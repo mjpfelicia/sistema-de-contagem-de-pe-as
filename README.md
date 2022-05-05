@@ -1,5 +1,5 @@
 # sistema-de-contagem-de-pe-as
-![Design preview for the Bookmark landing page coding challenge](./cadastro2.png);
+![Design preview sistema de contagem de peças ](./cadastro2.png);
 
 ## Welcome! 👋
 
